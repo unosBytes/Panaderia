@@ -52,18 +52,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CAPA_DATOS\empleadoDatos.cs" />
     <Compile Include="CAPA_DATOS\productoDatos.cs" />
+    <Compile Include="CAPA_LOGICA\empleado.cs" />
     <Compile Include="CAPA_LOGICA\Producto.cs" />
-    <Compile Include="CAPA_PRESENTACION\Form1.cs">
+    <Compile Include="CAPA_PRESENTACION\frmPanaderia.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CAPA_PRESENTACION\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="CAPA_PRESENTACION\frmPanaderia.Designer.cs">
+      <DependentUpon>frmPanaderia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CAPA_PRESENTACION\frmEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAPA_PRESENTACION\frmEmpleados.Designer.cs">
+      <DependentUpon>frmEmpleados.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CAPA_PRESENTACION\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="CAPA_PRESENTACION\frmEmpleados.resx">
+      <DependentUpon>frmEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CAPA_PRESENTACION\frmPanaderia.resx">
+      <DependentUpon>frmPanaderia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -89,7 +100,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\lupa.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\panaderia.png" />
   </ItemGroup>
@@ -101,6 +114,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\carrito-de-compras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario-de-perfil.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

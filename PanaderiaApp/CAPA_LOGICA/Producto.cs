@@ -17,7 +17,7 @@ namespace PanaderiaApp.CAPA_LOGICA
         public void AgregarProducto(string nombre, decimal precio, int cantidad)
         {
             
-            CAPA_DATOS.productoDatos.InsertarProducto(nombre, precio, cantidad);
+            productoDatos.InsertarProducto(nombre, precio, cantidad);
         }
     }
 }

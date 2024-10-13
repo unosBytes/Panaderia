@@ -83,6 +83,16 @@ namespace PanaderiaApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap lupa {
+            get {
+                object obj = ResourceManager.GetObject("lupa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mas {
             get {
                 object obj = ResourceManager.GetObject("mas", resourceCulture);
@@ -96,6 +106,16 @@ namespace PanaderiaApp.Properties {
         internal static System.Drawing.Bitmap panaderia {
             get {
                 object obj = ResourceManager.GetObject("panaderia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap usuario_de_perfil {
+            get {
+                object obj = ResourceManager.GetObject("usuario-de-perfil", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

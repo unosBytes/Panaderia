@@ -1,4 +1,5 @@
 ﻿using PanaderiaApp.CAPA_LOGICA;
+using PanaderiaApp.CAPA_PRESENTACION;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,9 +13,9 @@ using System.Windows.Forms;
 
 namespace PanaderiaApp
 {
-    public partial class Form1 : Form
+    public partial class frmPanaderia : Form
     {
-        public Form1()
+        public frmPanaderia()
         {
             InitializeComponent();
         }
@@ -92,6 +93,17 @@ namespace PanaderiaApp
         private void txtbox_cantidad_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2ImageButton2_Click(object sender, EventArgs e)
+        {
+            this.Refresh();
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            frmEmpleados empleado = new frmEmpleados();
+            empleado.Show();
         }
     }
 }
