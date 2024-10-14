@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PanaderiaApp.CAPA_DATOS;
+﻿using PanaderiaApp.CAPA_DATOS;
 
 namespace PanaderiaApp.CAPA_LOGICA
 {
@@ -16,7 +11,7 @@ namespace PanaderiaApp.CAPA_LOGICA
 
         public void AgregarProducto(string nombre, decimal precio, int cantidad)
         {
-            
+
             productoDatos.InsertarProducto(nombre, precio, cantidad);
         }
     }

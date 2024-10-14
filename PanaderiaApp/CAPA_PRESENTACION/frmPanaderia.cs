@@ -26,7 +26,7 @@ namespace PanaderiaApp
 
         private void btn_Salir_Click(object sender, EventArgs e)
         {
-           this.Close();
+            this.Close();
         }
 
         private void btn_Guardar_Click(object sender, EventArgs e)
@@ -61,7 +61,7 @@ namespace PanaderiaApp
             txtbox_cantidad.Clear();
         }
 
-        
+
 
 
         private void guna2Panel5_Paint(object sender, PaintEventArgs e)
@@ -98,6 +98,11 @@ namespace PanaderiaApp
         {
             frmEmpleados empleado = new frmEmpleados();
             empleado.Show();
+        }
+
+        private void dgv_productos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

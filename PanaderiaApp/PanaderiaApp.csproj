@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="CAPA_DATOS\empleadoDatos.cs" />
     <Compile Include="CAPA_DATOS\productoDatos.cs" />
+    <Compile Include="CAPA_LOGICA\clasePRUEBA.cs" />
     <Compile Include="CAPA_LOGICA\empleado.cs" />
     <Compile Include="CAPA_LOGICA\Producto.cs" />
     <Compile Include="CAPA_PRESENTACION\frmPanaderia.cs">

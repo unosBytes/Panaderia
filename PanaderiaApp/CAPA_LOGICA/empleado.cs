@@ -1,9 +1,4 @@
 ﻿using PanaderiaApp.CAPA_DATOS;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PanaderiaApp.CAPA_LOGICA
 {
@@ -20,7 +15,7 @@ namespace PanaderiaApp.CAPA_LOGICA
         public void MostrarEmpleado(string nombre, string apellido, int edad)
         {
 
-            empleadoDatos.SeleccionarEmpleado(nombre,apellido,edad);
+            empleadoDatos.SeleccionarEmpleado(nombre, apellido, edad);
         }
     }
 }

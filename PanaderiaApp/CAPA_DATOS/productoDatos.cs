@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data.SqlClient;
-using System.Management;
+﻿using System.Data.SqlClient;
 
 namespace PanaderiaApp.CAPA_DATOS
 {
@@ -25,7 +19,7 @@ namespace PanaderiaApp.CAPA_DATOS
             //aca devuelvo las filas
             comando.ExecuteNonQuery();
 
-        } 
+        }
     }
 }
 

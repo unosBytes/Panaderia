@@ -73,10 +73,11 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.tabla_Empleados.DefaultCellStyle = dataGridViewCellStyle3;
             this.tabla_Empleados.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.tabla_Empleados.Location = new System.Drawing.Point(162, 132);
+            this.tabla_Empleados.Location = new System.Drawing.Point(62, 132);
             this.tabla_Empleados.Name = "tabla_Empleados";
+            this.tabla_Empleados.ReadOnly = true;
             this.tabla_Empleados.RowHeadersVisible = false;
-            this.tabla_Empleados.Size = new System.Drawing.Size(240, 150);
+            this.tabla_Empleados.Size = new System.Drawing.Size(340, 150);
             this.tabla_Empleados.TabIndex = 1;
             this.tabla_Empleados.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.tabla_Empleados.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -90,8 +91,8 @@
             this.tabla_Empleados.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabla_Empleados.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.tabla_Empleados.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tabla_Empleados.ThemeStyle.HeaderStyle.Height = 4;
-            this.tabla_Empleados.ThemeStyle.ReadOnly = false;
+            this.tabla_Empleados.ThemeStyle.HeaderStyle.Height = 15;
+            this.tabla_Empleados.ThemeStyle.ReadOnly = true;
             this.tabla_Empleados.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.tabla_Empleados.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.tabla_Empleados.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

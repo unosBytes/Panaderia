@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Windows.Forms;
 
+
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;using System.Collections.Generic;
+using System.Collections.Generic;
+using System.ComponentModel;
 
 namespace PanaderiaApp.CAPA_PRESENTACION
 {
@@ -25,21 +27,21 @@ namespace PanaderiaApp.CAPA_PRESENTACION
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            
-                string consulta = "SELECT * FROM EMPLEADO";
 
-                // Crear un DataTable para almacenar los resultados
-                DataTable dt = new DataTable();
+            string consulta = "SELECT * FROM EMPLEADO";
 
-                SqlConnection conexion = new SqlConnection("server=DESKTOP-H5LC7P4\\SQLEXPRESS;database=PANIFICACION;integrated security = true");
-                SqlCommand comando = new SqlCommand(consulta, conexion);
-                conexion.Open();
+            // Crear un DataTable para almacenar los resultados
+            DataTable dt = new DataTable();
 
-                SqlDataAdapter adaptador = new SqlDataAdapter(comando);
+            SqlConnection conexion = new SqlConnection("server=DESKTOP-H5LC7P4\\SQLEXPRESS;database=PANIFICACION;integrated security = true");
+            SqlCommand comando = new SqlCommand(consulta, conexion);
+            conexion.Open();
 
-                adaptador.Fill(dt);
-                tabla_Empleados.DataSource = dt;
-            
+            SqlDataAdapter adaptador = new SqlDataAdapter(comando);
+
+            adaptador.Fill(dt);
+            tabla_Empleados.DataSource = dt;
+
 
         }
     }
